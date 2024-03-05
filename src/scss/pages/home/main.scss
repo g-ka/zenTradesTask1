@@ -1,0 +1,64 @@
+main{
+  padding: 4rem;  
+  margin-top: 6rem;
+
+  .loading, .error{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+  }
+  .loading{
+    color: white;
+  }
+  .error{
+    color: red;
+  }
+
+  .list{
+    display: flex;
+    flex-direction: column;    
+    row-gap: 2rem;
+    
+    &_item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;    
+      padding: 0 2rem 0 0;
+      
+      &_product{
+        display: flex;
+        column-gap: 2rem;
+        align-items: center;
+
+        &_rank{
+          font-size: 1.5rem;
+          font-weight: 900;
+          color: rgba(18,18,18,255);
+          padding: 2rem;
+          border-radius: 10px;
+          background-color: rgba(238,85,102,255);
+        }
+
+        &_info{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          color: white;          
+
+          &_name{
+            font-size: 1.5rem;
+          }
+
+          &_category{
+            text-transform: capitalize;
+          }
+        }
+      }
+
+      &_price{
+        font-size: 1.3rem;
+        color: white;
+      }
+    }
+  }
+}

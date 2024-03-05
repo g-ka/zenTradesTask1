@@ -1,0 +1,8 @@
+@use './abstract/media_queries';
+@use './abstract/font.scss';
+
+@use './generic/generic';
+
+@use './pages/home/header.scss';
+@use './pages/home/main.scss';
+@use './pages/home/footer.scss';
