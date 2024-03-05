@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zenTradesTask1/static/css/main.291f9449.css",
+    "main.js": "/zenTradesTask1/static/js/main.9f183282.js",
+    "index.html": "/zenTradesTask1/index.html",
+    "main.291f9449.css.map": "/zenTradesTask1/static/css/main.291f9449.css.map",
+    "main.9f183282.js.map": "/zenTradesTask1/static/js/main.9f183282.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.291f9449.css",
+    "static/js/main.9f183282.js"
+  ]
+}
